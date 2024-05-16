@@ -30,3 +30,7 @@
   - 理解 cargo 的 workspace + member 的概念，以及如何使用。
   - 接下来围绕这个例子，通过 debug 的方式来了解执行流程，主要数据结构。（第一步可以先忽略 lazy）
   - 编写了一个 eager 的版本，接下来先调试这个版本的代码。
+
+
+TODO:
+- [ ] 理解 Arc<dyn T> 的内存布局，与 Box<dyn T> 的区别。
